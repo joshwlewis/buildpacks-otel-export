@@ -1,0 +1,9 @@
+api = "0.9"
+
+[buildpack]
+id = "heroku/otel-export"
+version = "0.1.0"
+name = "Example libcnb buildpack: export otel files"
+
+[[stacks]]
+id = "*"

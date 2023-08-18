@@ -1,0 +1,13 @@
+[package]
+name = "buildpacks-otel-export"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.71.0"
+publish = false
+
+[dependencies]
+libcnb = "0.13"
+rand = "0.8.5"
+serde = "1.0.166"
+serde-jsonlines = "0.4.0"
+serde_with = "3.0.0"
